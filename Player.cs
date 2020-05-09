@@ -193,7 +193,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(Controller.isGrounded);
         StateMachine.OnUpdate(Time.deltaTime);
     }
 
